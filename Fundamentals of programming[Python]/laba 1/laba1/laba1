@@ -1,0 +1,18 @@
+import math
+
+surname = input("Введіть ваше прізвище")
+livingPlace = input("Де ви живите?")
+
+surnameData = str("Ваше прізвище " + surname)
+livingPlaceData = str("Ви живете в " + livingPlace)
+print(surnameData)
+print(livingPlaceData)
+
+
+a = int(input("Введіть а"))
+b = int(input("Введіть b"))
+c = int(input("Введіть c"))
+d = int(input("Введіть d"))
+
+x = ((math.cos(a)+math.sin(b)/math.log(c)+math.log(d)) ** 1/2)
+print(x)
