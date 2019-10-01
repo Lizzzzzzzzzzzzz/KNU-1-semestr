@@ -13,7 +13,7 @@
 
 
 
-![схема 1 до завдання](https://imgur.com/a/blGbLYp)
+![схема 1 до завдання](https://i.imgur.com/9fyty48.png)
 
     surname = input("Введіть ваше прізвище")
     livingPlace = input("Де ви живите?")
