@@ -10,7 +10,15 @@ public class Program implements FizzBuzz {
         if (number>100) {
             throw new IllegalArgumentException("число больше 100");
         }
-        return "";
-
+        if (number % 3 == 0) {
+            return "Fizz";
+        }
+        if (number % 5 == 0) {
+            return "Buzz";
+        }
+        if (number % 15 == 0) {
+            return "FizzBuzz";
+        }
+        return ""+ number;
     }
 }
