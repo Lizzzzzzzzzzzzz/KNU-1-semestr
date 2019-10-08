@@ -21,4 +21,5 @@ public class Program implements FizzBuzz {
         }
         return ""+ number;
     }
+
 }
