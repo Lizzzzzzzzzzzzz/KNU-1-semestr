@@ -1,0 +1,27 @@
+body {
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../login/background-site.jpg));
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.dws {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.butt {
+ border: 3px solid #218294;
+ font-size: 30px;
+ color: #218294;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 350px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ font-family: Arial, sans-serif;
+ overflow: hidden
+}
