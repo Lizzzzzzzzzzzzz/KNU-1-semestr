@@ -18,7 +18,7 @@ for x in range(0, 5):
             print("на 0 неможна ділити")
             flag = False
         else:
-            while (upper != ((2k-1)/2k)):
+            while(upper != ((2k-1) / 2k)):
                 upper = startCount * (a/b)
                 result = upper/lowerEx
                 a += 2

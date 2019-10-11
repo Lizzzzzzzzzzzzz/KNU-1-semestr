@@ -1,5 +1,0 @@
-Fundamentals of programming/laba 1/laba1/.idea
-pract/target/classes
-pract/target/generated-sources
-pract/target/generated-test-sources
-pract/target/test-classes
