@@ -31,11 +31,30 @@ if (x**k + k**x != 0):
             print(k ,sum1)
 else:
     print("знаменник не може бути 0")
-    
+~~~~    
+
+                                                    Текстові данні                                                    
 ~~~~
-                                                    Текстові данні 
-k = 7   
+k = 6
+sum1 = 3.8583333333333334   
+
+                                                    Тестування 
+from unittest import TestCase
+import unittest
+import laba3
 
 
 
+class TestSum(TestCase):
+    def test_sum(self):
+        self.assertEqual(laba3.sum(), 3.8583333333333334)
+
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+Ran 1 test in 2.244s
+
+OK
 
